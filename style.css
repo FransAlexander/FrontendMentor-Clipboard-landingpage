@@ -1,0 +1,140 @@
+
+:root{
+    --primary-strongcyan: hsl(171, 66%, 44%);
+    --primary-lightblue: hsl(233, 100%, 69%); 
+    --neutral-darkgrayishblue: hsl(210, 10%, 33%);
+    --neutral-grayishblue: hsl(201, 11%, 66%);
+    --font-primary:'Bai Jamjuree', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*===================================
+            Elements
+====================================*/
+body{
+    
+    font-family: var(--font-primary);
+
+}
+
+h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+h3{
+    color: var(--neutral-darkgrayishblue);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    margin: 1em 0em 2em;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--neutral-grayishblue);
+}
+main{  
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin: 2em;
+    
+}
+img{
+    width: 100%;
+        
+}
+
+
+/*===================================
+            Header classes
+====================================*/
+.head__logo{
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head__container{
+    display: grid;
+    text-align: center;
+    margin: 0em 2em 2em;
+
+
+}
+.head__text{
+
+}
+.head__buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+    
+}
+.btnMAC,.btnIOS{
+    height: 3em;
+    border-radius: 50px;
+    font-family: var(--font-primary);
+    font-size: 1em;
+    font-weight: 600;
+    /* shadow */
+    color: white;
+    border: 0;
+}
+.btnIOS{
+    background-color: var(--primary-strongcyan);
+}
+.btnMAC{
+    background-color: var(--primary-lightblue);
+}
+
+/*===================================
+         Main_Section 1 classes
+====================================*/
+
+
+
+
+/*===================================
+        Main_Section 2 classes
+====================================*/
+
+
+
+
+/*===================================
+        Main_Section 3 classes
+====================================*/
+
+
+
+
+
+/*===================================
+        Main_Section 4 classes
+====================================*/
+
+
+
+
+
+/*===================================
+        Main_Section 5 classes
+====================================*/
+
+
+
+
+
+/*===================================
+            Footer classes
+====================================*/
